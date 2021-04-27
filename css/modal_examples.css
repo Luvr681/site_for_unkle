@@ -1,0 +1,96 @@
+.modal__examples {
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+	height: 100%;
+	padding: 0 1rem;
+
+	overflow: auto;
+
+	background-color: rgba(0, 0, 0, .7);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.modal__examples.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal__examples__window {
+  width: 90%;
+  min-height: 52%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 20px;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.modal__examples__inner {
+
+}
+
+.slider__modal {
+  backface-visibility: hidden;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+.slider__modal__slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px;
+}
+.slider__modal__slide__img {
+  object-fit: cover;
+  width: 50%;
+  height: 100%;
+  min-height: 580px;
+}
+
+.slick-dots {
+  position: absolute;
+  padding: 10px;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;  
+  /* background: #000; */
+  overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-indent: -9999px;
+}
+
+.slick-dots li {
+  cursor: pointer;
+  margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active {
+  border: 2px solid #fff;
+  background: #fff;
+}
+
+.slick-dots li:last-child {
+  margin-right: 0;
+}

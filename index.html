@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Искусство</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/intro.css">
+  <link rel="stylesheet" href="./css/services.css">
+  <link rel="stylesheet" href="./css/pricelist.css">
+  <link rel="stylesheet" href="./css/examples.css">
+  <link rel="stylesheet" href="./css/modal_examples.css">
+  <link rel="stylesheet" href="./css/contacts.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo"><img src="./images/Layer_46.png" alt=""></div>
+        <nav class="header__nav">
+          <a href="#" data-scroll="#services" class="header__nav__link">Услуги</a>
+          <a href="#" data-scroll="#pricelist" class="header__nav__link">Цены</a>
+          <a href="#" data-scroll="#examples" class="header__nav__link">Примеры работ</a>
+          <a href="#" data-scroll="#contacts" class="header__nav__link">Контакты</a>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+  <button id="navToggle" class="burger" type="button">
+    <img src="./images/menu.png" alt="Menu" class="burget__item">
+    <nav class="header__nav mobile">
+      <a href="#" data-scroll="#services" class="header__nav__link mobile">Услуги</a>
+      <a href="#" data-scroll="#pricelist" class="header__nav__link mobile">Цены</a>
+      <a href="#" data-scroll="#examples" class="header__nav__link mobile">Примеры работ</a>
+      <a href="#" data-scroll="#contacts" class="header__nav__link mobile">Контакты</a>
+    </nav>
+  </button>
+
+  <section id="home" class="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <h1 class="intro__title">Мастерская Николая Исаева</h1>
+        <div class="intro__subtitle">
+          <p>Реставрация скульптур и</p>
+          <p>картин</p>
+        </div>
+        <div class="intro__btn__block"><a href="" class="intro__btn">Сделать заказ</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services__header">
+        <h1 class="services__title">Услуги</h1>
+        <p class="services__suptitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint soluta ducimus exercitationem quae? Eum labore delectus nisi quam officia sunt odit, nemo magni pariatur iure debitis praesentium distinctio fugit ipsum.</p>
+      </div> 
+      <div class="services__inner">
+        <div class="service">
+          <div class="service__img__block"><img src="images/services/1.jpg" alt="" class="service__img"></div>
+          <h3 class="service__title">Реставрация скульптур из гипса</h3>
+          <p class="service__text">Реставрация скульптур из гипса</p>
+          <div class="service__btn__block"><a href="#" class="service__btn">Заказать</a></div>
+        </div>
+        <div class="service">
+          <div class="service__img__block"><img src="images/services/2.jpg" alt="" class="service__img"></div>
+          <h3 class="service__title">Реставрация скульптур из гипса</h3>
+          <p class="service__text">Реставрация скульптур из гипса</p>
+          <div class="service__btn__block"><a href="#" class="service__btn">Заказать</a></div>
+        </div>
+        <div class="service">
+          <div class="service__img__block"><img src="images/services/3.jpg" alt="" class="service__img"></div>
+          <h3 class="service__title">Реставрация скульптур из гипса</h3>
+          <p class="service__text">Реставрация скульптур из гипса</p>
+          <div class="service__btn__block"><a href="#" class="service__btn">Заказать</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricelist" class="pricelist">
+    <div class="container">
+      <div class="pricelist__header">
+        <h1 class="pricelist__title">Цены</h1>
+        <p class="pricelist__suptitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint soluta ducimus exercitationem quae? Eum labore delectus nisi quam officia sunt odit, nemo magni pariatur iure debitis praesentium distinctio fugit ipsum.</p>
+      </div> 
+      <div class="pricelist__accordeon">
+        <div class="pricelist__accordeon__block">
+          <div class="pricelist__accordeon__title__block">
+            <div class="pricelist__accordeon__btn">+</div>
+            <h3 class="pricelist__accordeon__title">ПЛАСТИК (ЛАМИНАТ, МЕЛАМИН)</h3>
+          </div> 
+          <div class="pricelist__accordeon__content">
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 850 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1100 рублей за 1 кв.см.</p>
+            </div>
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с формированием граней, углов, криволинейных поверхностей, отверстий с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 1300 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1700 рублей за 1 кв.см;</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricelist__accordeon__block">
+          <div class="pricelist__accordeon__title__block">
+            <div class="pricelist__accordeon__btn">+</div>
+            <h3 class="pricelist__accordeon__title">Title 1</h3>
+          </div> 
+          <div class="pricelist__accordeon__content">
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 850 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1100 рублей за 1 кв.см.</p>
+            </div>
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с формированием граней, углов, криволинейных поверхностей, отверстий с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 1300 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1700 рублей за 1 кв.см;</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricelist__accordeon__block">
+          <div class="pricelist__accordeon__title__block">
+            <div class="pricelist__accordeon__btn">+</div>
+            <h3 class="pricelist__accordeon__title">Title 1</h3>
+          </div> 
+          <div class="pricelist__accordeon__content">
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 850 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1100 рублей за 1 кв.см.</p>
+            </div>
+            <div class="pricelist__accordeon__information__block">
+              <h3 class="pricelist__accordeon__information__title">Устранение дефектов (царапины, трещины, вмятины, сколы) с формированием граней, углов, криволинейных поверхностей, отверстий с подбором цвета, покрытием лаком.</h3>
+              <p class="pricelist__accordeon__text">-черный, цветной, имитирующий породы дерева – 1300 рублей за 1 кв.см;</p>
+              <p class="pricelist__accordeon__text">-белый, серый – 1700 рублей за 1 кв.см;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="examples" class="examples">
+    <div class="container">
+      <div class="examples__header">
+        <h1 class="examples__title">Примеры работ</h1>
+        <p class="examples__suptitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint soluta ducimus exercitationem quae? Eum labore delectus nisi quam officia sunt odit, nemo magni pariatur iure debitis praesentium distinctio fugit ipsum.</p>
+      </div>
+      <div class="examples__inner">
+          <div class="arrow" id="prev__arrow"></div>
+          <div class="arrow" id="next__arrow"></div>
+        <div class="slider">
+          <div class="slider__slide 1">
+            <img src="images/works/first/1.jpg" alt="" class="slider__slide__img">
+            <img src="images/works/first/2.jpg" alt="" class="slider__slide__img">
+          </div>
+          <div class="slider__slide 2">
+            <img src="images/works/second/1.jpg" alt="" class="slider__slide__img">
+            <img src="images/works/second/2.jpg" alt="" class="slider__slide__img">
+          </div>
+          <div class="slider__slide 3">
+            <img src="images/works/third/1.jpg" alt="" class="slider__slide__img">
+            <img src="images/works/third/2.jpg" alt="" class="slider__slide__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="firstModalSlider" class="modal__examples">
+    <div class="modal__examples__window">
+      <div class="modal__examples__inner">
+        <div class="slider__modal">
+          <div class="slider__modal__slide">
+            <img src="images/works/first/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/first/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/second/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/second/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/third/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/third/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="secondModalSlider"  class="modal__examples">
+    <div class="modal__examples__window">
+      <div class="modal__examples__inner">
+        <div class="slider__modal">
+          <div class="slider__modal__slide">
+            <img src="images/works/first/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/first/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/second/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/second/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/third/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/third/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="thirdModalSlider"  class="modal__examples">
+    <div class="modal__examples__window">
+      <div class="modal__examples__inner">
+        <div class="slider__modal">
+          <div class="slider__modal__slide">
+            <img src="images/works/first/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/first/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/second/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/second/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+          <div class="slider__slide">
+            <img src="images/works/third/1.jpg" alt="" class="slider__modal__slide__img">
+            <img src="images/works/third/2.jpg" alt="" class="slider__modal__slide__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <div class="examples__header">
+        <h1 class="examples__title">Обратная связь</h1>
+        <p class="examples__suptitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint soluta ducimus exercitationem quae? Eum labore delectus nisi quam officia sunt odit, nemo magni pariatur iure debitis praesentium distinctio fugit ipsum.</p>
+      </div>
+
+      <form class="contacts__form">
+        <div class="contacts__inputs">
+          <div class="contacts__input">
+            <input placeholder="Введите Имя" type="text" class="contacts__name">
+          </div>
+          <div class="contacts__input">
+            <input placeholder="Введите Email" type="text" class="contacts__email">
+          </div>
+        </div>
+
+        <div class="message__block">
+          <textarea placeholder="Введите сообщение" name="" id="" cols="30" rows="10" class="message"></textarea>
+        </div>
+
+        <div class="contacts__btn__block">
+          <button type="submit" class="contacts__btn">Отправить</button>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__name">
+      <p>Мастерская Николая Исаева</p>
+    </div>
+    <div class="footer__phones">
+      <p class="footer__phone">
+        +7 (343) 201 60 13
+      </p>
+      <p class="footer__phone">
+        +7 (343) 201 60 13
+      </p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/accordeon.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/burgerMenu.js"></script>
+  <script src="js/modalExamples.js"></script>
+  <script src="js/modalServices.js"></script>
+  <script src="js/modalSlider.js"></script>
+  <script src="js/smoothScroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+/*Examples======================================================*/
+.examples {
+  padding: 80px 0;
+  background-color: #f5e5d7;
+}
+
+.examples__header {
+  margin-top: 40px;
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.examples__title {
+  font-size: 35px;  
+  margin-bottom: 30px;
+}
+.examples__suptitle {
+  font-size: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.examples__inner {
+  position: relative;
+}
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+.slider__slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px;
+}
+.slider__slide__img {
+  width: 50%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-bottom: 0;
+  border-left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+#next__arrow {
+  right: 1%;
+  transform: rotate(45deg);
+}
+
+#prev__arrow {
+  transform: rotate(-135deg);
+  left: 1%;
+}
+
+.slider__btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 12px;
+  font-size: 17px;
+  color: #000;
+  z-index: 1000;
+}
+
+@media (max-width: 1540px) {
+}
+
+@media (max-width: 1480px) {
+}
+
+@media (max-width: 1080px) {
+  .examples {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 790px) {
+  .examples {
+    padding: 40px 0;
+  }
+  
+  .examples__title {
+    font-size: 30px;  
+  }
+
+  .examples__suptitle {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .slider__slide__img {
+    width: 50%;
+    height: 100%;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 660px) {
+  .slider__inner {
+    flex-wrap: wrap;
+  }
+
+  .slider__slide__img {
+    width: 50%;
+    height: 100%;
+    min-height: 300px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .slider__slide__img {
+    width: 50%;
+    height: 100%;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 460px) {
+  .examples {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .slider__slide__img {
+    width: 50%;
+    height: 100%;
+    min-height: 200px;
+  }
+}
