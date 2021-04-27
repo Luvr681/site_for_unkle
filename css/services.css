@@ -147,6 +147,10 @@
 }
 
 @media (max-width: 540px) {
+  .services__header {
+    max-width: 90%;
+  }
+
   .service {
     width: 100%;
     max-width: 400px;

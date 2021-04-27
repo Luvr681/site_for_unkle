@@ -134,6 +134,10 @@
 }
 
 @media (max-width: 540px) {
+  .pricelist__header {
+    max-width: 90%;
+  }
+
   .pricelist__accordeon__title {
     font-size: 13px;
     margin-right: 15px;
